@@ -1,0 +1,13 @@
+Maib
+Client01
+Adresa01
+ContBancar01
+100
+RON
+01.04.2022
+02.04.2022
+ContBancar02
+200
+RON
+01.03.2022
+03.03.2022

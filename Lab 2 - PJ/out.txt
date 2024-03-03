@@ -1,0 +1,5 @@
+Produsul cu pret minim: 
+apa        1.2        30.0      
+
+Produsul cu pret maxim: 
+faina      2.5        40.0      

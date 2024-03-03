@@ -115,21 +115,21 @@ Data can be retrieved from the keyboard or from the file.
 ## Laboratory 8 - Development of GUI Applications in Java – The Swing Library
 1. Make a desktop GUI application. Exceptions that may occur will be handled by displaying appropriate messages (eg: Divide by 0, missing value, invalid value - if letters are entered instead of numbers). After completing the application, the runnable jar file will be created, using the command File > Export > Java > Runnable jar file. Choose the main class for the Launch configuration option and specify the location and name of the jar file that will be created through Export destination. The created jar file is run by double clicking.
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/7.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/7.png)
 
 2. Create an application with a similar graphical interface.
 The name of a formation is entered in the text box and then the enter key is pressed, an action that causes the name of the formation to be added to the JList box below. Pressing the delete button causes the deletion of the formations selected in the JList box (multiple deletion).
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/8.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/8.png)
 
 3. To create an application that allows the introduction of films released in the last 5 years and their display in tabular format. The application will have a similar graphical interface.
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/9.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/9.png)
 
 ## Laboratory 9 - Java Database Connectivity (JDBC) and MySQL
 1. To create in the "test" MySQL database a table "people" with the fields id (integer primary key), name (varchar), age (integer). A Java application will be created, which will connect to the MySQL database using JDBC technology (theoretical support is in progress) and will perform the primary operations on the people table: query, insert, search, delete and update.
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/10.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/10.png)
 
 - The arrows will allow navigation among the records in the people table (positioning on the first record, on the previous record, on the next record, respectively on the last record). If we are on the first record, the left navigation buttons will be disabled. Symmetrically, the navigation buttons to the right will be used.
 - The text box in the JToolBar, will display the number of the current record and the total number of records
@@ -138,24 +138,24 @@ The name of a formation is entered in the text box and then the enter key is pre
   - State 1 – in which you can navigate among the elements and give the add, edit, delete commands
   - State 2 - reached if the user chooses add or edit, where the only active options are save or quit (see figure 8.2).
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/11.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/11.png)
 
 - The deletion will be carried out only after an additional confirmation message
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/12.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/12.png)
 
 - The name of the person being searched for will be entered in a window of type showInputDialog()
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/13.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/13.png)
 
 ## Laboratory 10 - Processing of XML Documents
 1. To develop an application with a graphical interface that allows connecting to XML documents and displaying them in tree form, in a JTree control. Only the tags and the texts between the tags will be displayed, without attributes. Document Object Model (DOM) technology will be used to exploit XML. Processing XML documents in the course.
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/14.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/14.png)
 
 Pressing the Open XML button will cause a JFileChooser window to be displayed. The window will be configured so that it only allows the opening of XML documents and when the Open XML button is pressed, the contents of the project folder will be displayed by default. The optional.xml and studenti.xml files will be used as test files.
 
-(https://github.com/victorcb0/JP/blob/main/Imagini/15.png)
+![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/15.png)
 
 In the main window, in the upper right corner, the time read from the system will be displayed in a JLabel type box in the format oo:mm:ss. The display will be like a clock, you will see the seconds change, then the minutes change, etc. For this, a Timer configured to generate an interrupt every second will be used. In the interrupt handling routine, the time is read from the system and updated in the JLabel box.
 

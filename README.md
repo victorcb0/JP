@@ -136,7 +136,7 @@ The name of a formation is entered in the text box and then the enter key is pre
 - Add, edit, delete, search, save and quit commands will be implemented
 - Two states will be implemented:
   - State 1 – in which you can navigate among the elements and give the add, edit, delete commands
-  - State 2 - reached if the user chooses add or edit, where the only active options are save or quit (see figure 8.2).
+  - State 2 - reached if the user chooses add or edit, where the only active options are save or quit.
 
 ![picture alt](https://github.com/victorcb0/JP/blob/main/Imagini/11.png)
 
